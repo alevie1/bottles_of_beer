@@ -21,6 +21,6 @@ while bottle_number > 0:
 		line4 = f'{bottle_number} bottles of beer on the wall'
 	drunk += 1
 	#if drunk > 5:
-		#
+		#finish this part later
 	print(f'{line1}\n{line2}\n{line3}\n{line4}')
 #Add 'drunkenness' - substitute random characters into the string?

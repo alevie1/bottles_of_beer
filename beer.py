@@ -51,6 +51,8 @@ while bottle_number > 0:
 		charnum1 = random.randrange(len(songlist))
 		charrep = random.choice(list(string.ascii_letters))
 		#print(f'{charnum1}{charrep}')
+		while songlist[charnum1] in '\n':
+			charnum1 = random.randrange(len(songlist))
 		songlist[charnum1] = charrep
 	
 	fullsong = ''.join(songlist)

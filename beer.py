@@ -47,6 +47,7 @@ while bottle_number > 0:
 		if drunk >= 90:
 			drunknum += 'e'
 		drunknum += 'e'
+	
 	for i in drunknum:
 		charnum1 = random.randrange(len(songlist))
 		charrep = random.choice(list(string.ascii_letters))

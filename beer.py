@@ -13,7 +13,7 @@ drunk = 0
 drunknum = ''
 #Cry if it is zero?
 if bottle_number == 0:
-	print("\n*incoherent sobbing at the tragic lack of beer*\n")
+	print("\nNo beer? A tragedy, to be sure. *sniff*\n")
 elif bottle_number < 0:
 	print("What? Negative beer? How is that possible?")
 #Make it sing every verse, make sure it doesn't say 'bottles' for one bottle
